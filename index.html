@@ -1,70 +1,119 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ansh | My Portfolio</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ANSH GAMING - Official Website</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="navbar">
-	<a href="#" class="logo">ANSH<span>.</span></a>
+<header>
+    <div class="logo">ANSH<span>GAMING</span></div>
 
-	<nav>
-		<a href="#home">Home</a>
-		<a href="#about">About</a>
-		<a href="#skills">Skills</a>
-		<a href="#contact">Contact</a>
-	</nav>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section id="home" class="hero">
-	<p class="tag">WELCOME TO MY WEBSITE</p>
-	<h1>Hello, I'm <span>Ansh!</span></h1>
-	<h2>Beginner Web Developer</h2>
-	<p>
-		I love learning technology and creating
-		beautiful websites.
-	</p>
-	<a href="#contact" class="btn">Contact Me</a>
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="small-title">WELCOME TO THE GAMING WORLD</p>
+
+        <h1>LEVEL UP YOUR<br>
+        <span>GAMING EXPERIENCE</span></h1>
+
+        <p>
+            Discover games, explore adventures
+            and enter a new gaming universe.
+        </p>
+
+        <a href="#games" class="btn">EXPLORE GAMES</a>
+
+    </div>
+
 </section>
 
-<section id="about" class="section">
-	<h2>About Me</h2>
-	<div class="card">
-		<p>
-			Hello! I am Ansh. I am learning HTML,
-			CSS and JavaScript. My goal is to become
-			a professional web developer.
-		</p>
-	</div>
+<section id="games" class="games">
+
+    <h2>FEATURED GAMES</h2>
+
+    <div class="game-container">
+
+        <div class="game-card">
+            <div class="game-image game-one"></div>
+            <h3>Action Games</h3>
+            <p>Explore exciting action adventures.</p>
+            <a href="#contact">Explore</a>
+        </div>
+
+        <div class="game-card">
+            <div class="game-image game-two"></div>
+            <h3>Racing Games</h3>
+            <p>Experience high-speed racing.</p>
+            <a href="#contact">Explore</a>
+        </div>
+
+        <div class="game-card">
+            <div class="game-image game-three"></div>
+            <h3>Adventure Games</h3>
+            <p>Discover amazing new worlds.</p>
+            <a href="#contact">Explore</a>
+        </div>
+
+    </div>
+
 </section>
 
-<section id="skills" class="section">
-	<h2>My Skills</h2>
-	<div class="skills">
-		<div class="skill">HTML</div>
-		<div class="skill">CSS</div>
-		<div class="skill">JavaScript</div>
-	</div>
+<section id="about" class="about">
+
+    <h2>ABOUT ANSH GAMING</h2>
+
+    <p>
+        Welcome to my gaming website.
+        This is my personal gaming project,
+        created while learning web development.
+    </p>
+
 </section>
 
-<section id="contact" class="section">
-	<h2>Contact Me</h2>
-	<form id="contactForm">
-		<input type="text" placeholder="Your Name" required>
-		<input type="email" placeholder="Your Email" required>
-		<textarea placeholder="Your Message" required></textarea>
-		<button type="submit">Submit Message</button>
-	</form>
-	<p id="result"></p>
+<section id="contact" class="contact">
+
+    <h2>CONTACT US</h2>
+
+    <form id="contactForm">
+
+        <input type="text"
+        placeholder="Your Name" required>
+
+        <input type="email"
+        placeholder="Your Email" required>
+
+        <textarea
+        placeholder="Your Message" required></textarea>
+
+        <button type="submit">SUBMIT</button>
+
+    </form>
+
+    <p id="result"></p>
+
 </section>
 
 <footer>
-	<p>© 2026 Ansh. My Personal Website.</p>
+    <p>© 2026 ANSH GAMING. All Rights Reserved.</p>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
