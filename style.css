@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background: #0b1020;
+	color: white;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 22px 8%;
+	background: #111a30;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.logo {
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logo span {
+	color: #8b5cf6;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin-left: 22px;
+}
+
+nav a:hover {
+	color: #a78bfa;
+}
+
+.hero {
+	min-height: 480px;
+	padding: 110px 20px;
+	text-align: center;
+	background: linear-gradient(135deg, #172554, #581c87);
+}
+
+.tag {
+	color: #c4b5fd;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+.hero h1 {
+	font-size: 52px;
+	margin-bottom: 12px;
+}
+
+.hero h1 span {
+	color: #c4b5fd;
+}
+
+.hero h2 {
+	margin-bottom: 20px;
+}
+
+.hero p {
+	line-height: 1.7;
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 25px;
+	padding: 14px 28px;
+	background: #8b5cf6;
+	color: white;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #6d28d9;
+}
+
+.section {
+	padding: 75px 8%;
+	text-align: center;
+}
+
+.section h2 {
+	font-size: 32px;
+	margin-bottom: 30px;
+	color: #c4b5fd;
+}
+
+.card {
+	max-width: 650px;
+	margin: auto;
+	padding: 30px;
+	line-height: 1.8;
+	background: #172033;
+	border-radius: 15px;
+}
+
+.skills {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.skill {
+	padding: 22px 40px;
+	background: #172033;
+	border: 1px solid #8b5cf6;
+	border-radius: 12px;
+}
+
+form {
+	max-width: 450px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 15px;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+textarea {
+	min-height: 120px;
+}
+
+button {
+	padding: 15px;
+	background: #8b5cf6;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+#result {
+	margin-top: 20px;
+	color: #a7f3d0;
+}
+
+footer {
+	padding: 25px;
+	text-align: center;
+	background: #111a30;
+}
+
+@media (max-width: 600px) {
+	.navbar {
+		flex-direction: column;
+		gap: 18px;
+	}
+
+	nav a {
+		margin: 0 7px;
+		font-size: 14px;
+	}
+
+	.hero h1 {
+		font-size: 36px;
+	}
+}
